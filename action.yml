@@ -55,3 +55,6 @@ runs:
   using: 'node12'
   main: 'dist/setup/index.js'
   post: 'dist/cleanup/index.js'
+- name: Setup Java JDK
+  uses: actions/setup-java@v1.4.3
+
